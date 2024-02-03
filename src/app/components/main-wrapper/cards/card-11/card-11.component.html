@@ -1,0 +1,30 @@
+<div class="card card-11">
+
+        <div class="content">
+        <span class="sub-heading">With</span>
+        <img class="line-divider" src="../../../../../assets/images/line-divider.png" alt="line_divider">
+
+        <div class="content-wrapper">
+            <div class="carousel-wrapper">
+                <ngb-carousel #carousel [interval]="1500">
+                    @for (img of images; track img; let i = $index) {
+                    <ng-template ngbSlide>
+                        <div class="picsum-img-wrapper">
+                            <img  [src]="img" alt="groom" />
+                        </div>
+                    </ng-template>
+                    }
+                </ngb-carousel>
+            </div>
+
+            <div class="text-content">
+                <span class="name">M. Sana Sultana<sub>(B.Com., BSC.)</sub></span>
+                <span class="parent-name">D/o M.S. Vali Sahab</span>
+
+                <span class="parent-name">Paternal Grand S/O Al-Haaj M. Abdul Azeez Sahab(Late)</span>
+                <span class="parent-name">Maternal Grand S/O C. Ahmed Basha Sahab(Late)</span>
+            </div>
+        </div>
+    </div>  
+
+</div>

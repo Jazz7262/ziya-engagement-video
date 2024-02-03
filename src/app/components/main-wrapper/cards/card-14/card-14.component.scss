@@ -1,0 +1,43 @@
+.card-14 {
+
+    .content {
+
+        height: 1080px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 11rem;
+        position: relative;
+        z-index: 10;
+        overflow: hidden;
+
+
+        .mandal-wrapper {
+            width: 1820px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            position: absolute;
+            left: 50px;
+            bottom: -860px;
+            background-color: #ffc0cb;
+
+            .mandal {
+                width: 1720px;
+                animation: mandal-1 8s infinite linear;
+            }
+
+            @keyframes mandal-1 {
+                from {
+                    transform: rotate(0deg);
+                }
+
+                to {
+                    transform: rotate(359deg);
+                }
+            }
+        }
+
+    }
+}

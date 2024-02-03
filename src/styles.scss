@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';
+
+body {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    // display: flex;
+    align-items: center;
+    justify-content: center;
+    // background: #9CECFB;
+    background: #ffc0cb;
+    // background: #ffc0cb**;
+    color: #002c6a;
+    font-family: "Nunito", sans-serif;
+}
+
+.card {
+    all: unset;
+    width: 1920px;
+    height: 1080px;
+    display: inline-block;
+
+}

@@ -1,0 +1,66 @@
+.card-11 {
+
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 1080px;
+        padding: 6rem;
+        position: relative;
+        z-index: 10;
+
+        .sub-heading {
+            font-size: 3rem;
+        }
+
+        .line-divider {
+            width: 600px;
+            margin-bottom: 4rem;
+        }
+
+        .content-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 1722px;
+
+            .carousel-wrapper {
+                width: 650px;
+            
+
+                img {
+                    width: 650px;
+                    border: 8px solid;
+                    border-radius: 50%;
+                    background-color: #ffc0cb;
+                }
+            }
+
+            .text-content {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+
+                .name {
+                    font-size: 5rem;
+                    font-family: "Great Vibes", cursive;
+
+                    sub {
+                        font-size: 0.35em;
+                        font-family: "Nunito", sans-serif;
+                        font-weight: 600;
+                        left: 10px;
+                        bottom: -0.35em;
+                    }
+                }
+
+                .parent-name {
+                    font-size: 2rem;
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,48 @@
+.card-15 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        position: relative;
+        z-index: 10;
+
+
+        width: 1920px;
+        height: 1080px;
+        padding: 5rem;
+
+        .heading {
+
+            font-size: 5rem;
+            font-family: "Great Vibes", cursive;
+        }
+
+        .carousel-outer-wrapper {
+            width: 1760px;
+
+            .carousel-wrapper {
+                width: 500px;
+
+                img {
+                    width: 500px;
+                    border: 8px solid;
+                    border-radius: 50%;
+                }
+            }
+
+            .sub-heading {
+                display: inline-block;
+                text-align: center;
+                font-size: 2.5rem;
+            }
+        }
+    }
+}

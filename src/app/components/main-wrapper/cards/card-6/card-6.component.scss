@@ -1,0 +1,25 @@
+.card-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+
+    .heading {
+        font-size: 6rem;
+        font-family: "Great Vibes", cursive;
+    }
+
+    .date {
+        font-family: "Nunito", sans-serif;
+        font-size: 5rem;
+        font-weight: 500;
+
+        sup {
+            top: -1.2em;
+            font-size: 0.5em;
+            font-weight: 600;
+        }
+    }
+}

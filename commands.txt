@@ -1,0 +1,24 @@
+
+npm install --save-dev @types/jquery
+
+npm install --save jquery
+
+ng add @ng-bootstrap/ng-bootstrap
+
+
+ng g c card-1 --skip-tests
+ng g c card-2 --skip-tests
+ng g c card-3 --skip-tests
+ng g c card-4 --skip-tests
+ng g c card-5 --skip-tests
+ng g c card-6 --skip-tests
+ng g c card-7 --skip-tests
+ng g c card-8 --skip-tests
+ng g c card-9 --skip-tests
+ng g c card-10 --skip-tests
+ng g c card-11 --skip-tests
+ng g c card-12 --skip-tests
+ng g c card-13 --skip-tests
+ng g c card-14 --skip-tests
+ng g c card-15 --skip-tests
+ng g c card-16 --skip-tests

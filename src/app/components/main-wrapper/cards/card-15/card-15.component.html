@@ -1,0 +1,58 @@
+<div class="card card-15">
+
+    <div class="content">
+        <span class="heading mb-4">Heartly Welcome to Our Ziya Chacha's Engagement Ceremony</span>
+
+        <div class="d-flex justify-content-between carousel-outer-wrapper">
+            <!-- Aafiya -->
+            <div class="d-flex flex-column">
+                <div class="carousel-wrapper mb-5">
+                    <ngb-carousel #carousel1 [interval]="1500">
+                        @for (img of aafiyaImages; track img; let i = $index) {
+                        <ng-template ngbSlide>
+                            <div class="picsum-img-wrapper">
+                                <img  [src]="img" alt="Aafiya" />
+                            </div>
+                        </ng-template>
+                        }
+                    </ngb-carousel>
+                </div>
+                <span class="sub-heading">Iram Aafiya</span>
+            </div>
+
+            <!-- Aaliya -->
+            <div class="d-flex flex-column">
+                <div class="carousel-wrapper mb-5">
+                    <ngb-carousel #carousel2 [interval]="1500">
+                        @for (img of aaliyaImages; track img; let i = $index) {
+                        <ng-template ngbSlide>
+                            <div class="picsum-img-wrapper">
+                                <img  [src]="img" alt="Aaliya" />
+                            </div>
+                        </ng-template>
+                        }
+                    </ngb-carousel>
+                </div>
+                <span class="sub-heading">Aaliya Fatima</span>
+            </div>
+
+            <!-- Ali -->
+            <div class="d-flex flex-column">
+                <div class="carousel-wrapper mb-5">
+                    <ngb-carousel #carousel3 [interval]="1500">
+                        @for (img of aliImages; track img; let i = $index) {
+                        <ng-template ngbSlide>
+                            <div class="picsum-img-wrapper">
+                                <img  [src]="img" alt="Ali" />
+                            </div>
+                        </ng-template>
+                        }
+                    </ngb-carousel>
+                </div>
+                <span class="sub-heading">Muhammad Ali</span>
+            </div>
+        </div>
+
+    </div>  
+
+</div>
